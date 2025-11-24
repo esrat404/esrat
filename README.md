@@ -1,7 +1,6 @@
-# ESRAT by Ganga 🎮
-🔥Advanced GOD mode RATs and Payloads are here !🔥
+# Remote Access Trojan 🎮
 
-Unlock the ultimate in remote access technology with my Super Advanced God Mode RATs. Designed for professionals who demand superior control and precision, our Remote Access Trojans (RATs) provide unparalleled capabilities for monitoring, managing, and securing your digital environment. 🙊
+‼️ Use it with your own responsibility. ‼️
 
 ## Key Features:-
 - **Real-Time Monitoring📲**: Live screen preview, keylogger, camera access, VNC control, Password stealer for comprehensive oversight.
