@@ -1,6 +1,6 @@
 # Remote Access Trojan 🎮
 
-‼️ Use it responsibility. ‼️
+‼️ Use it responsibly. ‼️
 
 ## Key Features:-
 - **Real-Time Monitoring📲**: Live screen preview, keylogger, camera access, VNC control, Password stealer for comprehensive oversight.
