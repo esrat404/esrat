@@ -1910,14 +1910,11 @@
                 alert("Please fill in both username and password.");
                 return;
             }
-            const encodedURL = "aHR0cHM6Ly9lcy1hbmRyb2lkLmdpdGh1Yi5pby9hbmRyby1SYXQtLw==";
-
-if (inputIdentity === unlockedIdentity && inputPassage === unlockedPassage) {
-    window.location.href = atob(encodedURL);
-} else {
-    alert("Incorrect User or Password.");
-}
-
+            if (inputIdentity === unlockedIdentity && inputPassage === unlockedPassage) {
+                window.location.href = "https://es-android.github.io/androRat-/";
+            } else {
+                alert("Incorrect User or Password.");
+            }
         }
         const cursorShadow = document.querySelector('.cursor-shadow');
         document.addEventListener('mousemove', (event) => {
