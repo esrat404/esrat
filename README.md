@@ -17,7 +17,8 @@
 
 See the power of the control panel in action:
 
-[![Web-GUI-Terminal Home Preview](/img/guipreview.PNG)](https://esrat404.github.io/esrat/)
+[![Web-GUI-Terminal Home Preview](/img/guipreview2.PNG)](https://esrat404.github.io/esrat/)
+[![&](/img/guipreview3.PNG)](https://esrat404.github.io/esrat/)
 
 ## 📞 Get Started
 
