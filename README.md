@@ -1,36 +1,39 @@
-# Remote Access Trojan 🎮
+# 🔱 Super Advanced Remote Access Trojan (RAT)
 
-‼️ Use it responsibly. ‼️
+> ⚠️ **Disclaimer:** This tool is intended for **ethical and responsible use only**. We do not endorse or support illegal activities.
 
-## Key Features:-
-- **Real-Time Monitoring📲**: Live screen preview, keylogger, camera access, VNC control, Password stealer for comprehensive oversight.
-- **Advanced Command Execution🛜**: Execute commands remotely with precision and efficiency.
-- **Data Exfiltration📊**: Securely transfer files and data from target devices.
-- **Stealth Mode🕵️‍♂️**: Undetectable operation ensures continuous, discreet access.
-- **Anti-Delete❌**: Even a hacker can't delete our RATs. The Victim has to hard reset the device in order to remove the H@ck, but Admin has access to Remove/uninstall remotely.
-- **Multi-Platform Support🤖**: Compatible with Windows, Android and iOS devices.
-- **Customizable Payloads🚨**: Tailor the RAT to fit your specific needs and requirements.
-- **Robust Security🔐**: End-to-end encryption to protect your connection and data.
-- **User-Friendly Interface📱**: Intuitive control panel for seamless management (GUI Admin Panel).
+## ✨ Key Features at a Glance
 
-## WEB-GUI Terminal Preview:
+| Feature | Description | Platforms |
+| :--- | :--- | :--- |
+| **Real-Time Control** 📲 | Live screen view, VNC, keylogging, camera access, and password stealing for complete oversight. | All |
+| **Stealth & Persistence** 🕵️‍♂️ | Undetectable operation with an **Anti-Delete** mechanism. Remote uninstallation is available to the Admin. | All |
+| **Multi-Platform Support** 🤖 | Fully compatible with **Windows, Android, and iOS** devices. | All |
+| **Secure Data Handling** 🔐 | End-to-end encryption for secure connection and data exfiltration (file transfer). | All |
+| **Customization** 🚨 | Tailor payloads to meet your specific operational requirements. | All |
+| **Intuitive Interface** 📱 | User-friendly GUI Admin Panel for seamless management and remote command execution. | Web |
+
+## 🖥️ WEB-GUI Terminal Preview
+
+See the power of the control panel in action:
+
 [![Web-GUI-Terminal Home Preview](/img/guipreview.PNG)](https://esrat404.github.io/esrat/)
 
+## 📞 Get Started
 
-To learn more about our cutting-edge RAT solutions and how they can empower your operations, please reach out to me directly.
+Transform your digital capabilities with our cutting-edge RAT solutions.
 
-## Contact
-- **Email**: esplaysbgmi@gmail.com
-- **Telegram**: [DM](https://t.me/jrram3000)
+For inquiries, custom solutions, or support, please reach out directly:
 
+*   **Email**: `esplaysbgmi@gmail.com`
+*   **Telegram**: [DM @jrram3000](https://t.me/jrram3000)
 
-Transform your digital capabilities with our Super Advanced God Mode RATs – because true control is in the data.
+---
 
-Happy Hacking🕊️ !
-
-
-
+## 📊 Project Statistics
 
 Views counter Implemented on- `19th Oct. 2024 (Sat)`
--
+
 [![Easy Spark profile views](https://u8views.com/api/v1/github/profiles/150267024/views/day-week-month-total-count.svg)](https://u8views.com/github/ES-UNIVERSE)
+
+Happy Hacking! 🕊️
