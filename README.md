@@ -33,7 +33,8 @@ Boost your digital toolkit with advanced remote management technology.
 
 For support, custom solutions, or queries:
 
-- **Email:** `esplaysbgmi@gmail.com`  
+- **Email:** `esplaysbgmi@gmail.com`
+-  **Get your RAT from here:** `esrat404.github.io/esrat/`
 - **Telegram:** [@jrram3000](https://t.me/jrram3000)
 
 ---
