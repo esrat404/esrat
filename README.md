@@ -1,40 +1,49 @@
-# 🔱 Super Advanced Remote Access Trojan (RAT)
+# 🔱 Super Advanced Remote Access Toolkit (RAT)
 
-> ⚠️ **Disclaimer:** This tool is intended for **ethical and responsible use only**. We do not endorse or support illegal activities.
+> ⚠️ **Disclaimer:** This project is for **ethical, educational, and authorized security testing only**.  
+> Misuse for illegal purposes is strictly discouraged.
 
-## ✨ Key Features at a Glance
+## ✨ Features Overview
+
+A powerful, all-in-one remote management toolkit packed with advanced capabilities:
 
 | Feature | Description | Platforms |
 | :--- | :--- | :--- |
-| **Real-Time Control** 📲 | Live screen view, VNC, keylogging, camera access, and password stealing for complete oversight. | All |
-| **Stealth & Persistence** 🕵️‍♂️ | Undetectable operation with an **Anti-Delete** mechanism. Remote uninstallation is available to the Admin. | All |
-| **Multi-Platform Support** 🤖 | Fully compatible with **Windows, Android, and iOS** devices. | All |
-| **Secure Data Handling** 🔐 | End-to-end encryption for secure connection and data exfiltration (file transfer). | All |
-| **Customization** 🚨 | Tailor payloads to meet your specific operational requirements. | All |
-| **Intuitive Interface** 📱 | User-friendly GUI Admin Panel for seamless management and remote command execution. | Web |
+| **Real-Time Control** 📲 | Live screen view, VNC, keylogging, camera access, and password retrieval for full remote management. | All |
+| **Stealth Mode + Persistence** 🕵️‍♂️ | Operates quietly with built-in **Anti-Delete** protection. Admin can remotely uninstall anytime. | All |
+| **Cross-Platform Support** 🤖 | Fully functional on **Windows**, **Android**, and **iOS**. | All |
+| **Secure Architecture** 🔐 | End-to-end encrypted connections with safe and efficient file transfer. | All |
+| **Custom Payloads** 🚨 | Generate payloads tailored to your specific operation needs. | All |
+| **Modern Web Dashboard** 🌐 | Sleek, responsive GUI for command execution, device monitoring, and system control. | Web |
 
-## 🖥️ WEB-GUI Terminal Preview
+---
 
-See the power of the control panel in action:
+## 🖥️ Web GUI – Terminal Preview
 
-[![Web-GUI-Terminal Home Preview](/img/guipreview2.PNG)](https://esrat404.github.io/esrat/)
-[![&](/img/guipreview3.PNG)](https://esrat404.github.io/esrat/)
+Experience the control panel interface:
 
-## 📞 Get Started
+[![Web-GUI Home Preview](/img/guipreview2.PNG)](https://esrat404.github.io/esrat/)  
+[![More Preview](/img/guipreview3.PNG)](https://esrat404.github.io/esrat/)
 
-Transform your digital capabilities with our cutting-edge RAT solutions.
+---
 
-For inquiries, custom solutions, or support, please reach out directly:
+## 🚀 Get Started
 
-*   **Email**: `esplaysbgmi@gmail.com`
-*   **Telegram**: [DM @jrram3000](https://t.me/jrram3000)
+Boost your digital toolkit with advanced remote management technology.
+
+For support, custom solutions, or queries:
+
+- **Email:** `esplaysbgmi@gmail.com`  
+- **Telegram:** [@jrram3000](https://t.me/jrram3000)
 
 ---
 
 ## 📊 Project Statistics
 
-Views counter Implemented on- `19th Oct. 2024 (Sat)`
+Views counter enabled on **19 Oct 2024 (Saturday)**
 
 [![Easy Spark profile views](https://u8views.com/api/v1/github/profiles/150267024/views/day-week-month-total-count.svg)](https://u8views.com/github/ES-UNIVERSE)
 
-Happy Hacking! 🕊️
+---
+
+✨ **Happy Hacking — Stay Ethical!** 🕊️
