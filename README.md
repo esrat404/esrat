@@ -3,20 +3,21 @@
 > ⚠️ **Disclaimer:** This project is for **ethical, educational, and authorized security testing only**.  
 > Misuse for illegal purposes is strictly discouraged.
 
-## ✨ Features Overview
-
-A powerful, all-in-one remote management toolkit packed with advanced capabilities:
-
-| Feature | Description | Platforms |
-| :--- | :--- | :--- |
-| **Real-Time Control** 📲 | Live screen view, VNC, keylogging, camera access, and password retrieval for full remote management. | All |
-| **Stealth Mode + Persistence** 🕵️‍♂️ | Operates quietly with built-in **Anti-Delete** protection. Admin can remotely uninstall anytime. | All |
-| **Cross-Platform Support** 🤖 | Fully functional on **Windows**, **Android**, and **iOS**. | All |
-| **Secure Architecture** 🔐 | End-to-end encrypted connections with safe and efficient file transfer. | All |
-| **Custom Payloads** 🚨 | Generate payloads tailored to your specific operation needs. | All |
-| **Modern Web Dashboard** 🌐 | Sleek, responsive GUI for command execution, device monitoring, and system control. | Web |
-
----
+## Features it contain:
+- Real-time screen viewing
+- VNC remote access
+- Keystroke logging
+- Camera access
+- Password management
+- Stealth operation
+- Persistence with anti-delete protection
+- Remote uninstall control
+- Windows, Android, and iOS support (.ipa-testflight)
+- Encrypted connections
+- Secure file transfer
+- Custom payload generation
+- Web-based management dashboard
+- Device monitoring and command execution
 
 ## 🖥️ Web GUI – Terminal Preview
 
