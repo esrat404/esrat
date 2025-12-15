@@ -3,7 +3,7 @@
 > ⚠️ **Disclaimer:** This project is for **ethical, educational, and authorized security testing only**.  
 > Misuse for illegal purposes is strictly discouraged.
 
-## Features it contain:
+## Features it contains:
 - Real-time screen viewing
 - VNC remote access
 - Keystroke logging
