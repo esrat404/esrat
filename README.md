@@ -21,9 +21,11 @@
 
 ## 🖥️ Web GUI – Terminal Preview
 
-Experience the control panel interface:
+Control panel interface preview:
 
 [![Web-GUI Home Preview](/img/guipreview2.PNG)](https://esrat404.github.io/esrat/)  
+
+Preview 2:
 [![More Preview](/img/guipreview3.PNG)](https://esrat404.github.io/esrat/)
 
 ---
